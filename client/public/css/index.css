@@ -1,8 +1,8 @@
 body {
- background-image: url("/images/campus.png");
+ background-image: url("/images/background.jpg");
  background-color: #f7eaea;
  background-repeat: no-repeat;
-  background-position: center;
+ background-size: 100% 175%;
 }
 
 #splash_title {
@@ -12,6 +12,7 @@ body {
   opacity: 0.85;
   text-shadow: 4px 4px 4px rgba(255, 255, 255);
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .menu_button {
@@ -21,9 +22,14 @@ body {
     cursor: pointer;
     text-align: center;
     user-select: none;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .background_button {
     border-radius: 12px;
     padding: 16px 20px;
+}
+
+#fade_text {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
