@@ -1,29 +1,39 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Art Chat Newsfeed</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="/css/global.css">
-    <link rel="stylesheet" type="text/css" href="/css/feed.css">
-  </head>
-  <body>
-    <header>
-      <!--Site Name-->
-      Art Chat
-      <!--MyMarist Portal-->
-      <div id="portal_button">
-        <img id = "flower" src = "./images/flower.jpg" alt = "myArt">
-        <p>myArt</p>
-      </div>
-    </header>
-    <main>
-      <div id = "newsfeed">
-      </div>
-    </main>
-    <footer>
-      <p id="site_info">Copyright &copy; 2025: Aarna Patel est. 2009</p>
-    </footer>
-    <script src = "/js/feed.js"></script>
-    <script src = "/js/global.js"></script>
-  </body>
+
+<head>
+  <title>Art Chat Newsfeed</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="/css/global.css">
+  <link rel="stylesheet" type="text/css" href="/css/feed.css">
+</head>
+
+<body>
+  <header>
+    <!--Site Name-->
+    Art Chat
+    <!--MyMarist Portal-->
+    <div id="portal_button">
+      <img id="flower" src="./images/flower.jpg" alt="myArt">
+      <p>myArt</p>
+    </div>
+  </header>
+  <main>
+    <div id="add-feed-item">
+      <input id="title" placeholder="Title" type="text" />
+      <input id="body" placeholder="Body" type="text" />
+      <input id="linkUrl" placeholder="Link URL" type="text" />
+      <input id="imageUrl" placeholder="Image URL" type="text" />
+      <button id="add-button">Add Feed Item</button>
+    </div>
+    <div id="newsfeed">
+    </div>
+  </main>
+  <footer>
+    <p id="site_info">Copyright &copy; 2025: Aarna Patel est. 2009</p>
+  </footer>
+  <script src="/js/feed.js"></script>
+  <script src="/js/global.js"></script>
+</body>
+
 </html>

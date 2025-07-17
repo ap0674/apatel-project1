@@ -8,10 +8,10 @@ function checkKeyPress(e) {
 }
 
 
-document.addEventListener("load", function() {
+document.addEventListener("load", function () {
 });
 
-document.addEventListener("keypress", checkKeyPress); 
+document.addEventListener("keypress", checkKeyPress);
 
 document.fade_text = document.getElementById("fade_text");
 fade_text.addEventListener("click", function () {
